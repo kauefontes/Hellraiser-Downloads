@@ -1,0 +1,68 @@
+*{
+        margin:0;
+        padding:0;
+        background:#000;
+}
+
+.header
+{
+	border: 1px solid blue;
+	width:100%;
+	height: 80px;
+	background-color: #000;
+}
+
+.logo
+{
+	width:300px;
+	height:80px;
+}
+
+.menu
+{
+	float:right;
+	border:1px solid red;
+	list-style-type:none;
+	width:65%;
+	margin:auto;
+}
+
+.menu li
+{
+	float:left;
+	margin-right:30px;
+}
+
+.menu li a
+{
+	color:#fff;
+	font-size:18px;
+}
+
+.meio
+{
+	background-color: #000;
+	border:1px solid yellow;
+	margin-top:30px;
+	min-height: 500px;
+	width:80%;
+	margin:auto;
+}
+
+.footer
+{
+	position:absolute;
+	bottom:0;
+	width:100%;
+	border:0px solid green;
+	height: 70px;
+	background: #000 url("imagens/firee.jpg");
+	
+	/*OPACIDADE*/
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; /*OPACIDADE NO IE antigos*/
+	filter: alpha(opacity=35); /*OPACIDADE NO IE 8+*/
+	opacity:0.35; /*OPACIDADE NORMAL*/
+	-moz-opacity: 0.35; /*OPACIDADE MOZILA*/
+	
+	
+	}
